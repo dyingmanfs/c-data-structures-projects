@@ -1,0 +1,80 @@
+# =========================
+# C compiled files
+# =========================
+
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Compiled programs
+fishdom
+TODO_Simulator
+FishdomAnalysis
+
+# =========================
+# Build directories
+# =========================
+
+build/
+bin/
+Debug/
+Release/
+
+# =========================
+# CMake
+# =========================
+
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# =========================
+# IDE files
+# =========================
+
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# CLion generated files
+# =========================
+
+cmake-build-debug/
+cmake-build-release/
+
+# =========================
+# Debug files
+# =========================
+
+*.pdb
+*.ilk
+*.dSYM/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*~
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Operating system files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
